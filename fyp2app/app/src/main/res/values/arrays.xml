@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- User Types -->
+    <string-array name="user_types">
+        <item>Employer</item>
+        <item>Employee</item>
+    </string-array>
+
+    <!-- Leave Types for Time Off Request -->
+    <string-array name="leave_types">
+        <item>Annual leave</item>
+        <item>Sick leave</item>
+        <item>Paternity leave</item>
+        <item>Compassionate leave</item>
+        <item>Unpaid leave</item>
+    </string-array>
+
+    <!-- Full Day Options for Time Off Request -->
+    <string-array name="day_options">
+        <item>Full day</item>
+        <item>Half day</item>
+    </string-array>
+
+    <!-- Approval Statuses for Spinner -->
+    <string-array name="approval_statuses">
+        <item>Pending</item>
+        <item>Approved</item>
+        <item>Rejected</item>
+        <item>Under Review</item>
+    </string-array>
+
+    <!-- Notification Preferences -->
+    <string-array name="notification_preferences">
+        <item>Email</item>
+        <item>SMS</item>
+        <item>Push Notification</item>
+    </string-array>
+
+    <!-- Employee Names -->
+    <string-array name="employee_names">
+        <item>John Doe</item>
+        <item>Jane Smith</item>
+        <item>Emily Johnson</item>
+        <item>Michael Brown</item>
+    </string-array>
+</resources>
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary Branding Colors -->
+    <color name="primary">#6200EE</color> <!-- Purple 500 -->
+    <color name="primary_variant">#3700B3</color> <!-- Purple 700 -->
+    <color name="on_primary">#FFFFFF</color> <!-- White for text on primary -->
+
+    <!-- Secondary Branding Colors -->
+    <color name="secondary">#03DAC5</color> <!-- Teal 200 -->
+    <color name="secondary_variant">#018786</color> <!-- Teal 700 -->
+    <color name="on_secondary">#FFFFFF</color> <!-- White for text on secondary -->
+
+    <!-- Background and Surface Colors -->
+    <color name="background">#FFFFFF</color> <!-- White -->
+    <color name="on_background">#000000</color> <!-- Black for text on background -->
+    <color name="surface">#F5F5F5</color> <!-- Light Grey for surface backgrounds -->
+    <color name="on_surface">#212121</color> <!-- Dark Grey for text on surface -->
+
+    <!-- Accent and Interactive Colors -->
+    <color name="accent">#FF4081</color> <!-- Pink for accent highlights -->
+    <color name="blue">#3F51B5</color> <!-- Blue for buttons and highlights -->
+
+    <!-- Teal Colors (Backward Compatibility) -->
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+
+    <!-- Error Colors -->
+    <color name="error">#B00020</color> <!-- Error red -->
+    <color name="on_error">#FFFFFF</color> <!-- White for text on error backgrounds -->
+
+    <!-- Custom Additional Colors -->
+    <color name="warning">#FFA000</color> <!-- Amber for warning messages -->
+    <color name="success">#4CAF50</color> <!-- Green for success messages -->
+    <color name="info">#2196F3</color> <!-- Blue for informational highlights -->
+
+    <!-- Disabled/Placeholder Colors -->
+    <color name="disabled">#BDBDBD</color> <!-- Light Grey for disabled elements -->
+    <color name="placeholder">#757575</color> <!-- Medium Grey for placeholder text -->
+</resources>
+
+
+

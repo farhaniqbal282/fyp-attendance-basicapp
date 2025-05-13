@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fyp2app">
+
+    <!-- Permissions Required -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fyp2App">
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Time Off Requested Activity (Employee's Time Off Requests Page) -->
+        <activity
+            android:name=".TimeOffRequestedActivity"
+            android:exported="false" />
+
+        <!-- Attendance Record Activity -->
+        <activity
+            android:name=".AttendanceRecordActivity"
+            android:exported="false" />
+
+        <!-- View Time Off Requests Activity (Employer's Management Page) -->
+        <activity
+            android:name=".ViewTimeOffRequestsActivity"
+            android:exported="false" />
+
+        <!-- View Attendance Activity -->
+        <activity
+            android:name=".ViewAttendanceActivity"
+            android:exported="false" />
+
+        <!-- Time Off Request Activity (Employee's Request Submission Page) -->
+        <activity
+            android:name=".TimeOffRequestActivity"
+            android:exported="false" />
+
+        <!-- Register Activity -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+
+        <!-- Profile Activity -->
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+
+        <!-- Login Activity -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+
+        <!-- Home Activity -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+
+        <!-- Employer Feature Activity -->
+        <activity
+            android:name=".EmployerFeatureActivity"
+            android:exported="false" />
+
+        <!-- Edit User Activity -->
+        <activity
+            android:name=".EditUserActivity"
+            android:exported="false" />
+
+        <!-- Firebase Configuration -->
+        <meta-data
+            android:name="com.google.firebase.database.DatabaseURL"
+            android:value="https://fyp2app-aab47-default-rtdb.asia-southeast1.firebasedatabase.app" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+</manifest>
+
